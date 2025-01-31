@@ -1,0 +1,859 @@
+@media (max-width: 1107px) {
+    #loading-section {
+        max-width: 100%;
+    }
+
+    .header {
+        max-width: 95%;
+        padding: 8px 10px;
+        margin-bottom: 15px;
+    }
+
+    .nav {
+        margin-right: 0px;
+    }
+
+    .nav a {
+        font-size: 11px;
+        margin-left: 10px;
+    }
+
+    .available {
+        width: 70px;
+        font-size: 11px;
+    }
+
+    .available-text {
+        font-size: 9px;
+    }
+
+    #header, #home, #experience, #portfolio, #education, #skill, #services, #footer {
+        max-width: 100%;
+    }
+
+    #job-position {
+        font-size: 19px;
+    }
+
+    .right-section h1 {
+        font-size: 44px;
+    }
+    
+    .right-section p {
+        font-size: 18px;
+    }
+
+    .carousel-container {
+        max-width: 100%;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+
+    .slider-card {
+        width: 90%;
+        max-width: 80%;
+        padding: 15px;
+    }
+
+    .owl-nav .owl-next{
+        right: -20px !important; 
+    }
+    
+    .owl-nav .owl-prev {
+        left: -20px !important; 
+    }
+
+    .my-name {
+        font-size: 23px; 
+    }
+
+    .about-me {
+        font-size: 14px; 
+    }
+
+    .loc-date {
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+
+    .edu-item .edu-content {
+        text-align: center;
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
+
+    .edu-item .edu-title {
+        font-size: 16px;
+    }
+
+    .edu-item .edu-description,
+    .edu-item .edu-location {
+        font-size: 14px;
+    }
+
+    .skill-logo {
+        width: 120px; 
+        height: 120px;
+        padding: 5px;
+    }
+
+
+    .my-services {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+    .service-card {
+        margin-top: 50px;
+        padding: 15px;
+        border-radius: 10px;
+        width: 215px;
+    }
+    
+    .service-card .number {
+        font-size: 14px;
+    }
+    .service-card h2 {
+        font-size: 18px;
+    }
+    .service-card p {
+        font-size: 12px;
+    }
+    .service-card a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1087px) {
+    .glow-1 {
+        top: -5%;
+        left: 90%;
+        width: 90px;
+        height: 90px;
+    }
+    
+    .glow-2 {
+        top: 30%;
+        left: 65%;
+        width: 145px;
+        height: 145px;
+    }
+
+    .glow-3 {
+        top: 80%;
+        left: 75%;
+        width: 75px;
+        height: 75px;
+    }
+
+    #job-position {
+        font-size: 18px;
+    }
+    .right-section h1 {
+        font-size: 42px;
+    }
+    .right-section p {
+        font-size: 16px;
+    }
+    .edu-content {
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .glow-1 {
+        top: -5%;
+        left: 85%;
+        width: 85px;
+        height: 85px;
+    }
+
+    .glow-2 {
+        top: 30%;
+        left: 65%;
+        width: 135px;
+        height: 135px;
+    }
+
+    .glow-3 {
+        top: 80%;
+        left: 75%;
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media (max-width: 835px) {
+    #loading-section {
+        max-width: 100%;
+    }
+
+    /* Navbar */
+    .navbar {
+        max-width: 100%;
+        padding: 10px; 
+    }
+
+    .navbar a {
+        margin: 8px 0; 
+        font-size: 16px; 
+        padding: 10px;
+    }
+    /* End Navbar */
+
+    /* Experience */
+    .experience h1 {
+        font-size: 28px;
+    }
+
+    .history {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .job img {
+        width: 100px; 
+        height: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .job .jobdesk {
+        width: 100%;
+    }
+    .job .jobdesk h2 {
+        font-size: 18px; 
+    }
+
+    .jobdesk {
+        margin-right: 5px;
+    }
+
+    .job .jobdesk {
+        margin-left: 120px;
+    }
+
+    .job:nth-child(even) .jobdesk {
+        margin-right: 120px;
+    }
+    .job .jobdesk p {
+        font-size: 12px; 
+    }
+
+    .window {
+        width: 150px; 
+        height: 150px;
+    }
+
+    .window .period {
+        font-size: 10px;
+    }
+    /* End Experience */
+
+
+    /* Education */
+    #education {
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .education {
+        font-size: 24px; 
+    }
+
+    .education h1 {
+        font-size: 28px; 
+    }
+
+    .edu-header {
+        margin-top: 50px;
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .my-edu {
+        flex-direction: column; 
+        padding: 20px; 
+    }
+
+    .left-edu {
+        width: 100%; 
+        margin-right: 0;
+        margin-bottom: 20px; 
+    }
+
+    .right-edu {
+        width: 100%;
+    }
+
+    .my-name {
+        font-size: 24px;
+    }
+
+    .about-me {
+        font-size: 14px; 
+    }
+
+    .loc-date {
+        font-size: 12px; 
+        margin-bottom: 50px;
+    }
+
+    .edu-item {
+        flex-direction: row;
+        padding: 0px;
+        position: relative;
+    }
+
+    .edu-item .image-edu {
+        width: 80px;
+        height: 80px;
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+
+    .edu-item img {
+        width: 60px;
+        height: 60px; 
+        margin-bottom: 5px;
+    }
+
+    .edu-item .edu-years {
+        font-size: 9px; 
+    }
+
+    .edu-item .edu-content {
+        text-align: center;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+
+    .edu-item .edu-title {
+        font-size: 16px;
+    }
+
+    .edu-item .edu-description,
+    .edu-item .edu-location {
+        font-size: 14px;
+    }
+
+    .edu-item .edu-arrow {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 16px;
+    }
+    /* End Education */
+    #skill {
+        max-width: 100%;
+    }
+    .skill-logo {
+        width: 100px; 
+        height: 100px;
+        padding: 5px;
+    }
+    #services {
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    /* Contact */
+    .contact .talk span {
+        font-size: 150px; 
+    }
+    .social-links {
+        max-width: 100%;
+    }
+    .social-links a {
+        font-size: 10px;
+        margin: 0 5px;
+        padding: 5px 10px;
+    }
+    .social-links a i {
+        margin-right: 5px;
+    }
+    .footer {
+        padding: 10px 0; 
+    }
+    /* End Contact */
+}
+
+@media (max-width: 480px) {
+    #loading-section {
+        max-width: 100%;
+    }
+    /*Loading Page*/
+    .loading-page .logo img {
+        width: 60px; 
+    }
+
+    .loading-page .loading-bar {
+        width: 80%; 
+    }
+
+    .loading-page .jobdesk {
+        font-size: 14px; 
+    }
+
+    .loading-page .percentage {
+        font-size: 14px;
+    }
+
+    .loading-text {
+        font-size: 14px;
+    }
+    /* End Loading Page*/
+
+
+
+    /*Glow Effect*/
+    .glow-1 {
+        width: 60px;
+        height: 60px;
+        top: 100%;
+        left: 80%;
+    }
+
+    .glow-2 {
+        width: 100px;
+        height: 100px;
+        top: 120%;
+        left: 30%;
+    }
+
+    .glow-3 {
+        width: 50px;
+        height: 50px;
+        top: 140%;
+        left: 70%;
+    }
+    /*End Glow Effect*/
+
+
+
+    /* Home */
+    .header {
+        max-width: 95%;
+        padding: 8px 10px;
+        margin-bottom: 15px;
+    }
+
+    .logo {
+        margin-left: 5px;
+        font-size: 16px;
+    }
+
+    .nav {
+        margin-right: 0px;
+    }
+
+    .nav a {
+        font-size: 11px;
+        margin-left: 10px;
+    }
+
+    .available {
+        width: 70px;
+        font-size: 11px;
+    }
+
+    .available-text {
+        font-size: 9px;
+    }
+
+    .home {
+        width: 100%;
+        max-width: 100%; 
+        flex-direction: center column;
+    }
+
+    .left-section img, #hero-image-hover {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .right-section {
+        padding-left: 0;
+    }
+
+    .right-section h1 {
+        font-size: 28px;
+    }
+
+    .right-section p {
+        font-size: 12px;
+    }
+
+    .whatsapp-button {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    /* End Home */
+
+
+
+    /* Navbar */
+    .navbar {
+        max-width: 100%;
+        padding: 10px; 
+    }
+
+    .navbar a {
+        margin: 8px 0; 
+        font-size: 10px;
+        padding: 5px;
+    }
+    /* End Navbar */
+
+
+
+    /* Experience */
+    .experience h1 {
+        font-size: 28px; 
+    }
+
+    .history {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .job img {
+        width: 100px;
+        height: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .job .jobdesk {
+        width: 100%;
+    }
+    .job .jobdesk h2 {
+        font-size: 18px;
+    }
+
+    .jobdesk {
+        margin-right: 5px;
+    }
+
+    .job .jobdesk {
+        margin-left: 120px;
+    }
+
+    .job:nth-child(even) .jobdesk {
+        margin-right: 120px;
+    }
+    .job .jobdesk p {
+        font-size: 12px; 
+    }
+
+    .window {
+        width: 150px; 
+        height: 150px;
+    }
+
+    .window .period {
+        font-size: 10px;
+    }
+    /* End Experience */
+
+
+
+    /* Portfolio */
+    #portfolio {
+        max-width: 100%;
+    }
+    .slider-card {
+        width: 80%; 
+        margin: 10px auto; 
+        padding: 8px; 
+    }
+
+    .project-title {
+        font-size: 18px; 
+        margin-left: 15px;
+    }
+    
+    .portfolio h1 {
+        font-size: 24px; 
+    }
+    .owl-nav .owl-next{
+        right: -20px !important; 
+    }
+    
+    .owl-nav .owl-prev {
+        left: -20px !important; 
+    }
+    /* End Portfolio */
+
+
+
+    /* Education */
+    #education {
+        max-width: 100%;
+    }
+    .education {
+        font-size: 24px; 
+    }
+
+    .education h1 {
+        font-size: 28px;
+    }
+
+    .edu-header {
+        margin-top: 50px;
+        font-size: 20px; 
+        margin-left: 15px; 
+    }
+
+    .my-edu {
+        flex-direction: column; 
+        padding: 20px; 
+    }
+
+    .left-edu {
+        width: 100%; 
+        margin-right: 0; 
+        margin-bottom: 20px; 
+    }
+
+    .right-edu {
+        width: 100%;
+    }
+
+    .my-name {
+        font-size: 24px;
+    }
+
+    .about-me {
+        font-size: 14px; 
+    }
+
+    .loc-date {
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+
+    .edu-item {
+        flex-direction: row;
+        padding: 0px;
+        position: relative;
+    }
+
+    .edu-item .image-edu {
+        width: 80px;
+        height: 80px;
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+
+    .edu-item img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 5px;
+    }
+
+    .edu-item .edu-years {
+        font-size: 9px; 
+    }
+
+    .edu-item .edu-content {
+        text-align: center;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+
+    .edu-item .edu-title {
+        font-size: 16px;
+    }
+
+    .edu-item .edu-description,
+    .edu-item .edu-location {
+        font-size: 14px;
+    }
+
+    .edu-item .edu-arrow {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 16px;
+    }
+    /* End Education */
+    
+    
+    /* Skill */
+    .skills {
+        grid-template-columns: repeat(3, 1fr); 
+        column-gap: 20px; 
+        row-gap: 20px;
+        max-width: 90%; 
+    }
+
+    .skill-logo {
+        width: 100px; 
+        height: 100px;
+        padding: 5px;
+    }
+
+    .skill h1 {
+        font-size: 28px; 
+    }
+    /* End Skill */
+
+
+
+    /* Services */
+    .my-services {
+        flex-direction: column; 
+        align-items: center;
+        gap: 15px;
+    }
+
+    .service-card {
+        width: 95%; 
+    }
+
+    .services {
+        font-size: 20px; 
+    }
+
+    .services h1 {
+        font-size: 20px; 
+    }
+    .service-card {
+        margin-top: 50px;
+        padding: 30px;
+        border-radius: 10px;
+        width: 200px;
+    }
+
+    .service-card h2 {
+        font-size: 18px; 
+    }
+
+    .service-card p {
+        font-size: 12px; 
+    }
+
+    .service-card .number {
+        font-size: 14px;
+    }
+
+    .service-card a {
+        font-size: 12px;
+    }
+    /* End Services */
+
+
+
+    /* Contact */
+    .contact .talk span {
+        font-size: 150px; 
+    }
+    .social-links {
+        max-width: 100%;
+    }
+    .social-links a {
+        font-size: 10px;
+        margin: 0 5px;
+        padding: 5px 10px;
+    }
+    .social-links a i {
+        margin-right: 5px;
+    }
+    .footer {
+        padding: 10px 0;
+    }
+    /* End Contact */
+}
+
+
+@media (max-width: 460px) {
+    #job-position {
+        font-size: 18px;
+    }
+
+    .navbar a {
+        margin: 8px 0; 
+        font-size: 9px; 
+        padding: 5px;
+    }
+
+    .edu-item .edu-content {
+        text-align: center;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+
+    .edu-item .edu-title {
+        font-size: 14px;
+    }
+
+    .edu-item .edu-description,
+    .edu-item .edu-location {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 438px) {
+    .home {
+        width: 100%;
+        max-width: 100%; 
+        flex-direction: column;
+    }
+
+    .nav a {
+        font-size: 10px;
+        margin-left: 8px;
+    }
+
+    .available {
+        width: 70px;
+        font-size: 10px;
+    }
+
+    .available-text {
+        font-size: 8px;
+    }
+
+    .left-section img, #hero-image-hover {
+        width: 99%;
+        max-width: 100%; 
+        height: auto;
+    }
+
+    .right-section p {
+        font-size: 11px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    #job-position {
+        font-size: 17px;
+    }
+
+    .right-section p {
+        font-size: 10px;
+    }
+
+    .social-links a {
+        font-size: 9px;
+    }
+
+    /* Navbar */
+    .navbar {
+        max-width: 100%;
+        padding: 8px; 
+    }
+
+    .navbar a {
+        margin: 8px 0; 
+        font-size: 8px; 
+        padding: 5px;
+    }
+    /* End Navbar */
+}
