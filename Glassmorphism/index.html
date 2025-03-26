@@ -22,9 +22,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
-    <!-- My Script JS -->
-    <script src="js/script.js" defer></script>
-    <script src="ai-chatbot.js"></script>
+    <script>
+        window.ChatWidgetConfig = {
+          webhook: {
+            url: 'https://n8n-jimmyefendi.my.id/webhook/bd0964d4-4c3b-45a4-8a28-35854560adfa/chat',
+            route: 'general'
+          },
+          branding: {
+            logo: './assets/img/hero-hover.png',
+            name: 'AI CHATBOT',
+            welcomeText: 'Get instant answers to your questions!',
+            responseTimeText: 'Click the button below to start chatting'
+          },
+          style: {
+            primaryColor: '#10b981',
+            secondaryColor: '#059669',
+            position: 'right',
+            backgroundColor: '#ffffff',
+            fontColor: '#1f2937'
+          },
+          suggestedQuestions: [
+            "Apa yang bisa saya bantu?",
+            "Bagaimana cara menggunakan layanan ini?"
+          ]
+        };
+      </script>
 
 </head>
 <body>
@@ -432,6 +454,10 @@
   
     <!-- Owl Carousel JS CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- My Script JS -->
+    <script src="js/script.js" defer></script>
+    <script src="js/ai-chatbot.js"></script>
     
 </body>
 </html>
