@@ -1,29 +1,8 @@
-window.ChatWidgetConfig = {
-      webhook: {
-        url: 'https://n8n-jimmyefendi.my.id/webhook/bd0964d4-4c3b-45a4-8a28-35854560adfa/chat',
-        route: 'general'
-      },
-      branding: {
-        logo: 'https://images.app.goo.gl/P6vBdsAxC596vNUt6',           // Ganti dengan URL logo perusahaan Anda
-        name: 'EKLES AI BOT',         // Ganti dengan nama perusahaan Anda
-        welcomeText: 'Get instant answers to your questions!',
-        responseTimeText: 'Click the button below to start chatting'
-      },
-      style: {
-        primaryColor: '#10b981',
-        secondaryColor: '#059669',
-        position: 'right',
-        backgroundColor: '#ffffff',
-        fontColor: '#1f2937'
-      },
-      suggestedQuestions: [                // Contoh pertanyaan yang disarankan (opsional)
-        "Apa yang bisa saya bantu?",
-        "Bagaimana cara menggunakan layanan ini?"
-      ]
-    };
 // Fungsi untuk mengubah teks markdown **bold** menjadi tag <strong>
 function parseMarkdown(text) {
-    return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    let parsed = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    parsed = parsed.replace(/\*(.*?)\*/g, '<strong>$1</strong>');
+    return parsed;
   }
   
   // Interactive Chat Widget for n8n
@@ -975,4 +954,3 @@ function parseMarkdown(text) {
           });
       });
   })();
-  
